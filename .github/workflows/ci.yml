@@ -11,7 +11,7 @@ jobs:
     runs-on: ubuntu-latest
     defaults:
       run:
-        working-directory: Worksheet2
+        working-directory: CISE_Repos/Worksheet2
 
     strategy:
       matrix:
@@ -26,6 +26,9 @@ jobs:
       with:
         node-version: ${{ matrix.node-version }}
 
+    - name: List directory contents
+      run: ls -R
+      
     - name: Install dependencies
       run: npm install
 
