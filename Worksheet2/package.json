@@ -7,5 +7,10 @@
   },
   "author": "Ellena Weissmeyer",
   "license": "ISC",
-  "description": ""
+  "description": "",
+  "dependencies": {
+    "@nestjs/common": "^10.3.10",
+    "@nestjs/core": "^10.3.10",
+    "dotenv": "^16.4.5"
+  }
 }
